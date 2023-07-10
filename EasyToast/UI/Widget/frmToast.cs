@@ -99,7 +99,7 @@ namespace System.UI.Widget
 		internal string Description
         {
 			get => lblDescription.Text;
-			set => lblCaption.Text = value?.Trim() ?? string.Empty;
+			set => lblDescription.Text = value?.Trim() ?? string.Empty;
 
 		}
 
